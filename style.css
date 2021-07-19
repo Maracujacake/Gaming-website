@@ -28,6 +28,7 @@
 .menu-icon{
     width: 25px;
     cursor: pointer;
+    display: none;
 }
 
 nav{
@@ -192,4 +193,13 @@ button:hover{
     nav ul li a{
         color: white;
     }
-}
+
+    .menu-icon{
+        display: block;
+    }
+
+    #menuList{
+        overflow: hidden;
+        transition: 1s;
+    }
+} 
