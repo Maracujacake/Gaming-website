@@ -170,3 +170,26 @@ button:hover{
 .social-links{
     text-align: center;
 }
+
+/*media queries */
+
+@media screen and (max-width: 700px){
+    nav ul{
+        width: 100%;
+        background: linear-gradient(#ff54a2, #ff575a); ;
+        top: 75px;
+        right: 0;
+        position: absolute;
+        z-index: 2;
+    }
+
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a{
+        color: white;
+    }
+}
