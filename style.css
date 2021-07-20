@@ -218,5 +218,7 @@ button:hover{
 
     }
 
-    .color-box
+    .color-box{
+        transform: translateX(75px);
+    }
 } 
